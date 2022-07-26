@@ -33,10 +33,10 @@ void complex :: display()
 
 void complex :: print()
 {
-    cout << "The multiplication of complex number is " << real << "+i" << imag;
+    cout << "\nThe multiplication of complex number is " << real << "+i" << imag;
 }
 
-void add (complex a , complex b)
+complex add (complex a , complex b)
 {
     complex t;
     t.real = a.real + b.real;
